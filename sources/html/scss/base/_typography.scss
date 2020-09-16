@@ -1,0 +1,75 @@
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6,
+.h {
+	font-weight: 700;
+	margin: 0 0 20px;
+	color: var(--headings-color);
+	line-height: 1.2;
+}
+
+h1, .h1 {
+	font-size: var(--h1-font-size);
+	font-family: var(--base-font-second-sans-serif);
+
+	@include media('<tablet') {
+		font-size: 30px;
+	}
+}
+
+h2, .h2 {
+	font-size: var(--h2-font-size);
+
+	@include media('<tablet') {
+		font-size: 28px;
+	}
+}
+
+h3, .h3 {
+	font-size: var(--h3-font-size);
+
+	@include media('<tablet') {
+		font-size: 24px;
+	}
+}
+
+h4, .h4 {
+	font-size: var(--h4-font-size);
+
+	@include media('<tablet') {
+		font-size: 20px;
+	}
+}
+
+h5, .h5 {
+	font-size: var(--h5-font-size);
+
+	@include media('<tablet') {
+		font-size: 18px;
+	}
+}
+
+h6, .h6 {
+	font-size: var(--h6-font-size);
+
+	@include media('<tablet') {
+		font-size: 16px;
+	}
+}
+
+
+p {
+	margin: 0 0 20px;
+}
+
+a {
+	color: var(--base-link-color);
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}

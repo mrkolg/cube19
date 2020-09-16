@@ -1,0 +1,50 @@
+:root {
+	--blue-color: #7292CB;
+	--gray-color: #313539;
+	--darken-blue-color: #0c2b5b;
+	--light-black-color: #071426;
+	--white-color: #fff;
+	--orange-color: #FF6B00;
+	--green-color: #7dbd3d;
+	--cyan-color: #71C8C6;
+	--light-gray-color: #f2f1ee;
+
+	--dark-blue-color: #171F2A;
+	--yellow-color: #FEDB1C;
+	--red-color: #E91D4C;
+
+	--base-text-color: var(--dark-blue-color);
+	--headings-color: inherit;
+
+	--base-font-sans-serif: 'Greycliff CF', 'Helvetica Neue', 'Helvetica', sans-serif;
+	--base-font-serif: 'Times', 'Baskerville', 'Georgia', serif;
+	--base-background-color: var(--white-color);
+
+	--form-element-border-color: #C7C7C7;
+	--form-element-height: 48px;
+	--form-element-padding: 0 15px;
+
+	--font-size-base: 18px;
+	--line-height-base: 1.5;
+
+	--base-min-width: 320px;
+
+	--base-link-color: var(--dark-blue-color);
+
+	--btn-color: var(--dark-blue-color);
+	--btn-font-size: 12px;
+	--btn-background: var(--yellow-color);
+	--btn-padding: 14px 20px 11px;
+	--btn-border: 0;
+
+	--width: 1210px;
+
+	--h1-font-size: 60px;
+	--h2-font-size: 38px;
+	--h3-font-size: 30px;
+	--h4-font-size: 22px;
+	--h5-font-size: 20px;
+	--h6-font-size: 18px;
+
+	--vertical-rhythm: calc(var(--line-height-base) * 1em);
+}

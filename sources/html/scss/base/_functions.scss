@@ -1,0 +1,19 @@
+/// colors black & white
+/// @example scss - Usage
+///   .my-class {
+///     background: black(0.15);
+///     color: white(0.9);
+///   }
+@function black($opacity){
+  @return rgba(black, $opacity);
+}
+
+@function white($opacity){
+  @return rgba(white, $opacity);
+}
+
+$browser-context: 16; // Default
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em
+}
